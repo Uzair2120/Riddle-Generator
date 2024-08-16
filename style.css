@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Catamaran:wght@200;300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=Dancing+Script:wght@400;500;600&family=Jost:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Passions+Conflict&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+body{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Poppins' , sans-serif;
+}
+
+h1{
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main{
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    width: 900px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+
+.para{
+    color: aliceblue;
+    font-family: 'Maven Pro' , sans-serif;
+    font-size: 22px;
+    width: 80%;
+}
+
+.para::first-letter{
+    text-transform: uppercase;
+}
+
+.btns{
+    font-family: 'DM Sans' , sans-serif;
+    padding: 7px 30px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgb(46, 45, 45);
+    outline: none;
+    /* border: 2px solid rgb(15, 15, 15); */
+    border: none;
+    color: rgb(202, 203, 204);
+    transition: transform .3s;
+}
+
+.btns:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.04);
+}
+
+#btn2{
+    display: none;
+}
+
+/* #answer{
+    display: none;
+} */
